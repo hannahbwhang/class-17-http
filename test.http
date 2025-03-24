@@ -1,3 +1,15 @@
 /*
 # Test the Server API
 */
+GET http://localhost:8080/api/documents.json
+
+HTTP/1.1 200  - OK
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 36
+etag: W/"24-gmt9IU+F+tvaS7psIqo3WZiais0"
+date: Mon, 24 Mar 2025 15:23:13 GMT
+connection: close
+###
+GET http://
